@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semaforo</title> <!-- Titolo della pagina web-->
+    <link rel="stylesheet" href="styles.css"> <!-- File CSS -->
+</head>
+<body>
+<div class="traffic-light">  <!-- Div che contengono il semaforo, ovvero le 3 luci rosse e la luce verde -->
+    <div class="light red" id="red1"></div>
+    <div class="light red" id="red2"></div>
+    <div class="light red" id="red3"></div>
+    <div class="light green" id="green"></div>
+</div>
+<button id="startButton">Start</button> <!-- Pulsante per far partire il semaforo -->
+<button id="goButton" disabled>Parti!</button> <!-- Pulsante per la partenza -->
+<p id="result"></p> <!-- Stampa del risultato-->
+
+<script src="script.js"></script> <!-- File Javascript -->
+</body>
+</html>

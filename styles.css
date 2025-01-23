@@ -1,0 +1,52 @@
+/* Imposta lo stile generale del corpo della pagina */
+body {
+  display: flex; /* Dispone gli elementi in una colonna verticale */
+  flex-direction: column;
+  align-items: center; /* Centra gli elementi orizzontalmente */
+  font-family: Arial, sans-serif; /* Imposta il font predefinito */
+}
+
+/* Stile per il contenitore del semaforo */
+.traffic-light {
+  display: flex; /* Dispone le luci in una colonna */
+  flex-direction: column;
+  align-items: center; /* Centra le luci orizzontalmente */
+  margin: 20px 0; /* Aggiunge spazio sopra e sotto il semaforo */
+  width: 100px; /* Larghezza del semaforo */
+  padding: 10px; /* Spaziatura interna del contenitore */
+  background-color: black; /* Sfondo nero per simulare un vero semaforo */
+  border-radius: 10px; /* Angoli arrotondati del contenitore */
+}
+
+/* Stile base per le luci del semaforo */
+.light {
+  width: 60px; /* Larghezza di ogni luce */
+  height: 60px; /* Altezza di ogni luce */
+  margin: 10px 0; /* Spaziatura tra le luci */
+  border-radius: 50%; /* Forma circolare */
+  background-color: gray; /* Colore di base quando la luce è spenta */
+  opacity: 0.5; /* Trasparenza per luci spente */
+}
+
+/* Stile per le luci rosse */
+.light.red {
+  background-color: red; /* Colore rosso */
+}
+
+/* Stile per la luce verde */
+.light.green {
+  background-color: green; /* Colore verde */
+}
+
+/* Stile per i pulsanti */
+button {
+  padding: 10px 20px; /* Spaziatura interna del pulsante */
+  font-size: 16px; /* Dimensione del testo del pulsante */
+  cursor: pointer; /* Mostra un puntatore per indicare che è cliccabile */
+}
+
+/* Stile per la sezione del risultato */
+#result {
+  margin-top: 20px; /* Spaziatura sopra il risultato */
+  font-size: 18px; /* Dimensione del testo del risultato */
+}
