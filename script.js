@@ -1,12 +1,12 @@
 const redLights = [
-  document.getElementById('red1'),
-  document.getElementById('red2'),
-  document.getElementById('red3')
+  document.querySelector('#red1'),
+  document.querySelector('#red2'),
+  document.querySelector('#red3')
 ];
-const greenLight = document.getElementById('green');
-const startButton = document.getElementById('startButton');
-const goButton = document.getElementById('goButton'); // Pulsante "Parti!"
-const result = document.getElementById('result');
+const greenLight = document.querySelector('#green');
+const startButton = document.querySelector('#startButton');
+const goButton = document.querySelector('#goButton'); // Pulsante "Parti!"
+const result = document.querySelector('#result');
 
 let greenTime = null; // Variabile per salvare il momento in cui si accende il verde
 let isGreen = false; // Stato per verificare se il verde è attivo
